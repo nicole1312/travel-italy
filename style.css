@@ -1,0 +1,36 @@
+body {
+  background-image: url("rome2.png");
+  background-size: 1750px;
+  margin: auto;
+}
+h1 {
+  color: #5d9a9c;
+  font-family: "Playball", cursive;
+  font-size: 90px;
+  margin: 250px 30px 50px;
+  text-align: center;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.south,
+.central,
+.north {
+  border-radius: 4px;
+  box-shadow: 1px 1px 6px rgb(134, 171, 173);
+  color: #5d9a9c;
+  font-family: "Playball", cursive;
+  font-size: 30px;
+  margin: 30px;
+  padding: 40px 60px;
+  text-decoration: none;
+}
+.south:hover,
+.central:hover,
+.north:hover {
+  color: #897070;
+  box-shadow: 1px 1px 8px hsl(0, 8%, 60%);
+}
