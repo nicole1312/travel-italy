@@ -20,38 +20,64 @@
       href="https://fonts.googleapis.com/css2?family=Playball&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Travel to Italy homepage</title>
+    <title>Discover Italy homepage</title>
   </head>
   <body>
     <div class="container">
-      <h1>Travel to Italy</h1>
-      <h4>'A thousand roads lead men forever to Rome!'</h4>
-      <h5>
-        <em
-          >'Mille viae ducunt homines per saecula Romam!' (Alain de Lille
-          1175)</em
-        >
-      </h5>
+      <h1>Discover Italy</h1>
+      <h4>
+        ' Italy, and the spring and first love all together should suffice to
+        make the gloomiest person happy.'
+        <em class="author">Bertrand Russell</em>
+      </h4>
+
       <div class="homepage-pictures">
         <img
-          src="images/romeVatican.jpg"
+          src="images/venezia.jpg"
           class="img-fluid shadow p-2 rounded vatican-square"
-          alt="St.Peter Square, aerial view"
-          title="St.Peter Square"
-          width="400"
+          alt="Santa Maria Della Salute, Venice/ aerial view"
+          title="Santa Maria Della Salute, Venice"
+          width="250"
+        />
+        <img
+          src="images/treviFountain.jpg"
+          class="img-fluid shadow p-2 rounded vatican-square"
+          alt="Trevi Fountain, Rome"
+          title="Trevi Fountain, Rome"
+          width="250"
         />
         <img
           src="images/fororomano.jpg"
           class="img-fluid shadow p-2 rounded forum"
-          alt="Roman Forum"
-          title="Roman Forum"
-          width="400"
+          alt="Roman Forum, Rome"
+          title="Roman Forum, Rome"
+          width="250"
+        />
+        <img
+          src="images/sanVitoLoCapo.jpg"
+          class="img-fluid shadow p-2 rounded forum"
+          alt="San Vito Lo Capo, panoramic view"
+          title="San Vito Lo Capo, Sicily"
+          width="250"
         />
       </div>
       <p class="description">
-        Italy, officially the Italian Republic, is a large country in southern
+        <a
+          href="https://en.wikipedia.org/wiki/Italy"
+          target="_blank"
+          title="Discover more"
+          class="link"
+          >Italy</a
+        >
+        , officially the Italian Republic, is a large country in southern
         Europe. Together with Greece, it is acknowledged as the birthplace of
         Western culture. Not surprisingly, it is also home to the greatest
         number of
@@ -69,10 +95,11 @@
         mountains. No wonder it is often nicknamed <em> Il Bell Paese</em>/ The
         Beautiful Country.
       </p>
+      <h3>Where to next?</h3>
       <ul>
         <li>
-          <a href="south.html" class="south" title="Discover southern Italy"
-            >South</a
+          <a href="north.html" class="north" title="Discover northern Italy"
+            >North</a
           >
         </li>
         <li>
@@ -81,8 +108,8 @@
           >
         </li>
         <li>
-          <a href="north.html" class="north" title="Discover northern Italy"
-            >North</a
+          <a href="south.html" class="south" title="Discover southern Italy"
+            >South</a
           >
         </li>
       </ul>

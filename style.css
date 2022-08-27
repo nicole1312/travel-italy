@@ -1,5 +1,5 @@
 :root {
-  --link-color: #9c6464;
+  --link-color: #964b4b;
   --primary-color: #5d9a9c;
   --shadow-color: #86abad;
   --hover-color: #897070;
@@ -24,22 +24,26 @@ h4 {
   font-family: "Playball", cursive;
   font-size: 30px;
   line-height: 1;
+  margin: 10px 50px 10px;
   text-align: center;
 }
-h5 {
+.author {
   color: var(--text-color);
+  font-family: "Playfair Display", serif;
   font-size: 20px;
-  font-weight: 400;
-  letter-spacing: -1px;
-  line-height: 1;
   margin-bottom: 30px;
-  opacity: 0.5;
+  opacity: 0.7;
   text-align: center;
 }
 .homepage-pictures {
   display: flex;
   justify-content: space-evenly;
-  margin: 10px 20px 30px;
+  margin: 60px 0;
+}
+.central-pictures {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px 0;
 }
 
 ul {
@@ -82,9 +86,9 @@ ul {
   display: flex;
   justify-content: center;
   font-family: "Playball", cursive;
-  font-size: 30px;
-  margin: 40px;
-  padding: 10px 50px;
+  font-size: 25px;
+  margin: 40px 0;
+  padding: 10px 30px;
   text-decoration: none;
 }
 .homepage:hover {
@@ -93,12 +97,21 @@ ul {
 }
 .description {
   color: var(--text-color);
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
   margin-bottom: 60px;
 }
+h3 {
+  color: var(--primary-color);
+  font-family: "Playball", cursive;
+  font-size: 50px;
+  margin-bottom: 80px;
+  text-align: center;
+}
 
-.s-pictures {
+.south-pictures {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 40px 10px 60px;
 }
 footer {
@@ -109,12 +122,12 @@ footer {
   color: var(--link-color);
   text-decoration: none;
 }
+.link:hover,
 .source:hover {
   color: var(--hover-color);
 }
 small {
   color: var(--text-color);
   display: block;
-  font-family: "Courier New", Courier, monospace;
   text-align: center;
 }
