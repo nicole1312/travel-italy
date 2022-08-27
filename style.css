@@ -1,15 +1,47 @@
+:root {
+  --link-color: #9c6464;
+  --primary-color: #5d9a9c;
+  --shadow-color: #86abad;
+  --hover-color: #897070;
+  --hover-shadow-color: #a19191;
+  --text-color: #427576;
+}
 body {
-  background-image: url("rome2.png");
+  background-image: url("images/rome2.png");
   background-size: 1750px;
   margin: auto;
 }
+
 h1 {
-  color: #5d9a9c;
+  color: var(--primary-color);
   font-family: "Playball", cursive;
   font-size: 90px;
-  margin: 250px 30px 50px;
+  margin: 130px 30px 70px;
   text-align: center;
 }
+h4 {
+  color: var(--text-color);
+  font-family: "Playball", cursive;
+  font-size: 30px;
+  line-height: 1;
+  text-align: center;
+}
+h5 {
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-bottom: 30px;
+  opacity: 0.5;
+  text-align: center;
+}
+.homepage-pictures {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 20px 30px;
+}
+
 ul {
   display: flex;
   justify-content: space-evenly;
@@ -17,20 +49,72 @@ ul {
 }
 
 .south,
-.central,
 .north {
   border-radius: 4px;
-  box-shadow: 1px 1px 6px rgb(134, 171, 173);
-  color: #5d9a9c;
+  box-shadow: 1px 1px 6px var(--shadow-color);
+  color: var(--primary-color);
   font-family: "Playball", cursive;
   font-size: 30px;
   margin: 30px;
   padding: 40px 60px;
   text-decoration: none;
 }
+.central {
+  border-radius: 4px;
+  box-shadow: 1px 1px 6px var(--shadow-color);
+  color: var(--primary-color);
+  font-family: "Playball", cursive;
+  font-size: 30px;
+  margin: 30px;
+  padding: 40px 50px;
+  text-decoration: none;
+}
 .south:hover,
 .central:hover,
 .north:hover {
-  color: #897070;
-  box-shadow: 1px 1px 8px hsl(0, 8%, 60%);
+  color: var(--hover-color);
+  box-shadow: 1px 1px 8px var(--hover-shadow-color);
+}
+.homepage {
+  border-radius: 4px;
+  box-shadow: 1px 1px 6px var(--shadow-color);
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  font-family: "Playball", cursive;
+  font-size: 30px;
+  margin: 40px;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+.homepage:hover {
+  color: var(--hover-color);
+  box-shadow: 1px 1px 8px var(--hover-shadow-color);
+}
+.description {
+  color: var(--text-color);
+  margin-bottom: 60px;
+}
+
+.s-pictures {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 10px 60px;
+}
+footer {
+  margin-top: 50px;
+}
+.link,
+.source {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.source:hover {
+  color: var(--hover-color);
+}
+small {
+  color: var(--text-color);
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
 }
