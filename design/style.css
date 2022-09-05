@@ -7,11 +7,10 @@
   --text-color: #3c6565;
 }
 body {
-  background-image: url("images/rome2.png");
-  background-size: 1750px;
+  background-image: url("../images/rome2.png");
+  background-size: cover;
   margin: auto;
 }
-
 h1 {
   color: var(--primary-color);
   font-family: "Playball", cursive;
@@ -157,7 +156,6 @@ small {
     padding: 10px;
     margin: 5px;
   }
-
   .homepage {
     font-size: 30px;
     padding: 10px 25px;
